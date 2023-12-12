@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset-style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="range" id="numberSlider" min="1" max="11" step="1">
+<span id="sliderValue">16</span> <br><!-- Default value displayed -->
+
+     <button onclick="changeTheColor('red')">make them red</button><br>
+    <button onclick="changeTheColor('random')">make them random colors</button><br>
+    <button onclick="changeTheColor('white')">eraser</button><br>
+    <button onclick = "changeTheColor('reset')">reset</button>
+</div>
+   <div id="sketch-board" ></div>
+</body>
+</html>
